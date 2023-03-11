@@ -8,15 +8,20 @@ export const de: NavbarConfig = [
   //   icon: "fa-fort-awesome"
   // },
   {
-    text: "Tags",
+    text: "Artikel",
     link: "/tags/",
     icon: "fa-tag"
   },
   {
-    text: "Links",
-    link: "/links/",
+    text: "Material",
+    link: "/material/",
     icon: "fa-satellite-dish"
   }
+  // {
+  //   text: "Impressum",
+  //   link: "/impressum/",
+  //   icon: "fa-satellite-dish"
+  // }
   // {
   //   text: "Docs",
   //   link: "/docs/basic/intro.md",

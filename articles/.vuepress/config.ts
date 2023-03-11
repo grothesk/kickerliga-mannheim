@@ -74,16 +74,17 @@ export default defineUserConfig({
       {
         path: "/img/home/tisch-atmo.jpg",
         mask: "rgb(251, 170, 152, .2)"
-      }
-      // {
-      //   path: "/img/home/tisch-atmo.jpg",
-      //   mask: "rgb(255, 255, 255, .3)"
-      // }
+      },
+      {
+        path: "/img/home/tisch-atmo.jpg",
+        mask: "rgb(255, 255, 255, .3)"
+      },
     ],
 
     // other pages
     pages: {
       tags: {
+        title: "Artikel",
         subtitle: "Schlagwortsuche",
         bgImage: {
           path: "/img/home/tisch-atmo.jpg",
@@ -91,6 +92,7 @@ export default defineUserConfig({
         }
       },
       links: {
+        title: "Material",
         subtitle:
           "Referenzen",
         bgImage: {
@@ -117,7 +119,11 @@ export default defineUserConfig({
     },
 
     themePlugins: {
-      chartjs: true
+      git: false,
+      giscus: false,
+      chartjs: true,
+      search: false,
+      readingTime: false
     },
 
     footer: `
@@ -125,6 +131,12 @@ export default defineUserConfig({
         <br>
         Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
         <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>
+        <br>
+        <br>
+        <div>
+        Impressum:<br>
+        Tischfussball Mannheim e.V.
+        </div>
         `
   })
 });
