@@ -135,7 +135,9 @@ export default defineUserConfig({
         <br>
         <div>
         Impressum:<br>
-        Tischfussball Mannheim e.V.
+        Tischfussball Mannheim e.V.<br>
+        Nahestraße 7<br>
+        68167 Mannheim<br>
         </div>
         `
   })
