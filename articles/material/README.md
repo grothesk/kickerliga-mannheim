@@ -20,6 +20,10 @@ links:
         url: /kickerliga-mannheim/files/downloads/regelwerk.pdf
         img: /img/links/tfbm.jpg
         desc: Regelwerk Kickerliga Mannheim 2023
+      - sitename: Meldung
+        url: /kickerliga-mannheim/files/downloads/meldung.pdf
+        img: /img/links/tfbm.jpg
+        desc: Meldung Kickerliga Mannheim 2023
       # - sitename: Tischfußballverband Hamburg e.V.
       #   url: https://kickern-hamburg.de
       #   img: /img/links/tfvhh.svg
