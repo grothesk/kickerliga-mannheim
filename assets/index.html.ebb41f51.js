@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-94062b30","path":"/tags/kickerliga/","title":"kickerliga | Tags","lang":"de","frontmatter":{"title":"kickerliga | Tags","layout":"Tags","blog":{"type":"category","name":"kickerliga","key":"tag"}},"excerpt":"","headers":[],"filePathRelative":null}');export{e as data};
